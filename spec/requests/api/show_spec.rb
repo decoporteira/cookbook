@@ -21,7 +21,7 @@ RSpec.describe 'Mostrar detalhes da receita' do
             expect(json_response['cook_time']).to eq(12)
             expect(json_response['ingredients']).to eq('Pão e ovo')
             expect(json_response['instructions']).to eq('Misturar tudo na panela')
-            expect(json_response['user_mail']).to eq("#{user.email}")
+            expect(json_response['user_email']).to eq("#{user.email}")
 
 
         end
