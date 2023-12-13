@@ -3,3 +3,4 @@ class Recipe < ApplicationRecord
   belongs_to :user
   validates :title, :cook_time, :ingredients, :instructions, presence: true
 end
+ 
